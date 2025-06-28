@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #F4D04E;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: white;
+    margin: 10em;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 8px 8px  hsl(47, 88%, 5%);
+
+}
+
+.card .img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+
+    
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 42%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 2px;
+}
+
+.detail {
+    margin-left: 1.0em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card h5 {
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 0%, 7%);
+}
+
+.detail h2 {
+    margin-bottom: 15px;
+    color: hsl(47, 88%, 63%);
+    font-size: 25px;
+    font-family: 'figtree-ltalic';
+}
+
+.user_profile {
+    margin-left: 1.0em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.user_profile h3 {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
